@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae1fd562-69f6-4c9b-b6dc-bdb8388279ca" name="Changes" comment="" />
+    <list default="true" id="ae1fd562-69f6-4c9b-b6dc-bdb8388279ca" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +27,9 @@
   "associatedIndex": 4
 }]]></component>
   <component name="ProjectId" id="2c8B5dNEzlp5IKsndo6smz866ni" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,6 +37,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JUnit.MergeTwoSortedListTest.mergeListWithEmptyList.executor": "Run",
+    "JUnit.MergeTwoSortedListTest.mergeTwoEmptyLists.executor": "Run",
+    "JUnit.MergeTwoSortedListTest.mergeTwoLists.executor": "Run",
     "JUnit.TwoSumTest.executor": "Run",
     "JUnit.TwoSumTest.twoSum.executor": "Run",
     "JUnit.TwoSumTest.twoSum2.executor": "Debug",
@@ -56,7 +63,55 @@
       <recent name="io.cachola" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ValidParenthesisTest">
+  <component name="RunManager" selected="JUnit.MergeTwoSortedListTest.mergeTwoEmptyLists">
+    <configuration name="MergeTwoSortedListTest.mergeListWithEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cachola.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.cachola" />
+      <option name="MAIN_CLASS_NAME" value="io.cachola.MergeTwoSortedListTest" />
+      <option name="METHOD_NAME" value="mergeListWithEmptyList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeTwoSortedListTest.mergeTwoEmptyLists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cachola.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.cachola" />
+      <option name="MAIN_CLASS_NAME" value="io.cachola.MergeTwoSortedListTest" />
+      <option name="METHOD_NAME" value="mergeTwoEmptyLists" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeTwoSortedListTest.mergeTwoLists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cachola.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.cachola" />
+      <option name="MAIN_CLASS_NAME" value="io.cachola.MergeTwoSortedListTest" />
+      <option name="METHOD_NAME" value="mergeTwoLists" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TwoSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
@@ -68,38 +123,6 @@
       <option name="PACKAGE_NAME" value="io.cachola" />
       <option name="MAIN_CLASS_NAME" value="io.cachola.TwoSumTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoSumTest.twoSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cachola.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.cachola" />
-      <option name="MAIN_CLASS_NAME" value="io.cachola.TwoSumTest" />
-      <option name="METHOD_NAME" value="twoSum" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoSumTest.twoSum2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cachola.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.cachola" />
-      <option name="MAIN_CLASS_NAME" value="io.cachola.TwoSumTest" />
-      <option name="METHOD_NAME" value="twoSum2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,10 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MergeTwoSortedListTest.mergeTwoEmptyLists" />
+        <item itemvalue="JUnit.MergeTwoSortedListTest.mergeListWithEmptyList" />
+        <item itemvalue="JUnit.MergeTwoSortedListTest.mergeTwoLists" />
         <item itemvalue="JUnit.ValidParenthesisTest" />
         <item itemvalue="JUnit.TwoSumTest" />
-        <item itemvalue="JUnit.TwoSumTest.twoSum2" />
-        <item itemvalue="JUnit.TwoSumTest.twoSum" />
       </list>
     </recent_temporary>
   </component>
