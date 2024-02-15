@@ -5,12 +5,8 @@ public class MaxProfit {
         int maxProfit = Integer.MIN_VALUE;
         int cheaper = Integer.MAX_VALUE;
         for (int price : prices) {
-            if (cheaper > price) {
-                cheaper = price;
-            }
-            if (maxProfit < price - cheaper) {
-                maxProfit = price - cheaper;
-            }
+            cheaper = Math.min(cheaper, price);
+            maxProfit = Math.max(maxProfit, price - cheaper);
         }
         return Math.max(maxProfit, 0);
     }
