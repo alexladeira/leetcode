@@ -1,7 +1,9 @@
 package io.cachola;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class PalindromeTest {
 
@@ -9,28 +11,28 @@ public class PalindromeTest {
     public void testEmptyString() {
         Palindrome palindrome = new Palindrome();
         boolean result = palindrome.isPalindrome("");
-        Assertions.assertTrue(result);
+        assertTrue(result);
     }
 
     @Test
     public void testSingleCharacter() {
         Palindrome palindrome = new Palindrome();
         boolean result = palindrome.isPalindrome("a");
-        Assertions.assertTrue(result);
+        assertTrue(result);
     }
 
     @Test
     public void testPalindrome() {
         Palindrome palindrome = new Palindrome();
         boolean result = palindrome.isPalindrome("abba");
-        Assertions.assertTrue(result);
+        assertTrue(result);
     }
 
     @Test
     public void testNonPalindrome() {
         Palindrome palindrome = new Palindrome();
         boolean result = palindrome.isPalindrome("ab_ca");
-        Assertions.assertFalse(result);
+        assertFalse(result);
     }
 
 }

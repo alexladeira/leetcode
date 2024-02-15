@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ae1fd562-69f6-4c9b-b6dc-bdb8388279ca" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/cachola/MaxProfit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/cachola/MaxProfit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,17 +16,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2c8B5dNEzlp5IKsndo6smz866ni" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -37,6 +38,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JUnit.MaxProfitTest.executor": "Run",
+    "JUnit.MaxProfitTest.testMaxProfit_singleElementArray.executor": "Run",
+    "JUnit.MaxProfitTest.testMaxProfit_sortedDecreasingArray.executor": "Run",
+    "JUnit.MaxProfitTest.testMaxProfit_sortedNonDecreasingArray.executor": "Run",
     "JUnit.MergeTwoSortedListTest.mergeListWithEmptyList.executor": "Run",
     "JUnit.MergeTwoSortedListTest.mergeTwoEmptyLists.executor": "Run",
     "JUnit.MergeTwoSortedListTest.mergeTwoLists.executor": "Run",
@@ -63,7 +68,22 @@
       <recent name="io.cachola" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MergeTwoSortedListTest.mergeTwoEmptyLists">
+  <component name="RunManager" selected="JUnit.PalindromeTest">
+    <configuration name="MaxProfitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cachola.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.cachola" />
+      <option name="MAIN_CLASS_NAME" value="io.cachola.MaxProfitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MergeTwoSortedListTest.mergeListWithEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
@@ -112,7 +132,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PalindromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -121,22 +141,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="io.cachola" />
-      <option name="MAIN_CLASS_NAME" value="io.cachola.TwoSumTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidParenthesisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cachola.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.cachola" />
-      <option name="MAIN_CLASS_NAME" value="io.cachola.ValidParenthesisTest" />
+      <option name="MAIN_CLASS_NAME" value="io.cachola.PalindromeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PalindromeTest" />
+        <item itemvalue="JUnit.MaxProfitTest" />
         <item itemvalue="JUnit.MergeTwoSortedListTest.mergeTwoEmptyLists" />
         <item itemvalue="JUnit.MergeTwoSortedListTest.mergeListWithEmptyList" />
         <item itemvalue="JUnit.MergeTwoSortedListTest.mergeTwoLists" />
-        <item itemvalue="JUnit.ValidParenthesisTest" />
-        <item itemvalue="JUnit.TwoSumTest" />
       </list>
     </recent_temporary>
   </component>
